@@ -1,0 +1,13 @@
+@RestController
+class App {
+
+    @RequestMapping('/')
+    def home() {
+        def header = "<http><body>"
+        def footer = "</body></http>"
+        def content ="<h1>Hello!</h1><p>this is html content.</p>"
+
+        header + content + footer
+    }
+
+}

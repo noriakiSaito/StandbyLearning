@@ -1,0 +1,10 @@
+package com.tuyano.springboot;
+
+@RestController
+public class HeloController {
+
+	@RequestMapping("/")
+	public String index() {
+		return "Hello Spring-Boot World!!";
+	}
+}

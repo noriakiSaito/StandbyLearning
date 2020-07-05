@@ -1,0 +1,2 @@
+INDEX VERSION 1.131+D:\Work\workspace\learning\SpringBoot2 プログラミング入門\Chapter03\eclipse\.metadata\.plugins\org.eclipse.jdt.core
+118194670.index
