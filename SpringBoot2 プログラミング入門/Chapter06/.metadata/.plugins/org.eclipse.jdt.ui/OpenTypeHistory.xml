@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<typeInfoHistroy>
+    <typeInfo handle="=MyBootApp/C:\/Users\/KIRINOA22101\/.m2\/repository\/org\/springframework\/data\/spring-data-jpa\/2.3.1.RELEASE\/spring-data-jpa-2.3.1.RELEASE.jar=/maven.pomderived=/true=/=/maven.pomderived=/true=/=/maven.groupId=/org.springframework.data=/=/maven.artifactId=/spring-data-jpa=/=/maven.version=/2.3.1.RELEASE=/=/maven.scope=/compile=/&lt;org.springframework.data.jpa.repository(JpaRepository.class[JpaRepository" modifiers="1537" timestamp="1593838865666"/>
+    <typeInfo handle="=MyBootApp/C:\/Users\/KIRINOA22101\/.m2\/repository\/org\/springframework\/data\/spring-data-jpa\/2.3.1.RELEASE\/spring-data-jpa-2.3.1.RELEASE.jar=/maven.pomderived=/true=/=/maven.pomderived=/true=/=/maven.groupId=/org.springframework.data=/=/maven.artifactId=/spring-data-jpa=/=/maven.version=/2.3.1.RELEASE=/=/maven.scope=/compile=/&lt;org.springframework.data.jpa.repository.query(JpaEntityMetadata.class[JpaEntityMetadata" modifiers="1537" timestamp="1593838865666"/>
+    <typeInfo handle="=MyBootApp/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.tuyano.springboot{MsgDataDao.java[MsgDataDao" modifiers="513" timestamp="1594024566371"/>
+</typeInfoHistroy>

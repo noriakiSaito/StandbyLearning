@@ -1,0 +1,6 @@
+package com.tuyano.springboot;
+
+public interface MsgDataDao<T> {
+	public List<MsgData> getAll();
+	public MsgData findById(long id);
+}
