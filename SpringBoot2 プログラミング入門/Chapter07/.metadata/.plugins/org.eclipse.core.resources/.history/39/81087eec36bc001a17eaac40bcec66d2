@@ -1,0 +1,22 @@
+package com.tuyano.springboot;
+
+//@Controller
+public class HelloController_4_1_4_8 {
+//
+//	@RequestMapping("/")
+//	public ModelAndView index(ModelAndView mav) {
+//		mav.setViewName("index");
+//		return mav;
+//	}
+//
+//	@RequestMapping("/other")
+//	public String other() {
+//		return "redirect:/";
+//	}
+//
+//	@RequestMapping("/home")
+//	public String home() {
+//		return "forward:/";
+//	}
+
+}

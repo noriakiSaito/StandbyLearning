@@ -1,0 +1,6 @@
+package com.tuyano.springboot;
+
+@Configuration
+public class MyBeanAppConfig {
+
+}

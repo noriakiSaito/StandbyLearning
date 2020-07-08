@@ -1,0 +1,6 @@
+package com.tuyano.springboot;
+
+@Component
+public class MySampoleBean {
+
+}
