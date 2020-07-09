@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ja" xmlns:th="http://thymeleaf.org">
+<head>
+	<meta charset="UTF-8">
+	<title>PostgreSQLからデータを取得</title>
+</head>
+<body>
+	<table th:list=${list}>
+		<tr>
+			<th>ID</th>
+			<td th:text="*{id}"></td>
+		</tr>
+		<tr>
+			<th>name</th>
+			<td th:text="*{name}"></td>
+		</tr>
+		<tr>
+			<th>nail</th>
+			<td th:text="*{nail}"></td>
+		</tr>
+		<tr>
+			<th>memo</th>
+			<td th:text="*{memo}"></td>
+		</tr>
+	</table>
+</body>
+</html>

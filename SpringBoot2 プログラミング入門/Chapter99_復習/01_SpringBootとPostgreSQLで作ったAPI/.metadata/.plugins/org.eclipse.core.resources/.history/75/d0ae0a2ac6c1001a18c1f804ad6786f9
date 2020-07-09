@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ja" xmlns:th="http://thymeleaf.org">
+<head>
+	<meta http-equiv="Content-Type"  content="text/html; charset=UTF-8" />
+	<title>PostgreSQLからデータを取得</title>
+	<style>
+		h1 { font-size:18pt; font-weight:bold; color:gray; }
+		body { font-size:13pt; color:gray; margin:5px 25px; }
+		pre { border: solid 3px #ddd; padding: 10px; }
+		tr { margin:5px; }
+		th { padding:5px; color:white; background:darkgray; }
+		td { padding:5px; color:black; background:#f0f0f0; }
+	</style>
+</head>
+<body>
+	<h1>PosgreSQLデータ一覧</h1>
+
+	<!-- <table th:object="${list}"> -->  <!-- ここが間違い、データは複数あるので「th:each」タグを使う -->
+	<table>
+		<tr>
+			<th>ID</th>
+			<th>name</th>
+			<th>nail</th>
+			<th>memo</th>
+		</tr>
+		<tr th:each="obj:${list}">
+			<td>[[${obj.id]]</td>
+			<td th:text="${obj[1]}"></td>
+			<td th:text="${obj[2]}"></td>
+			<td th:text="${obj[3]}"></td>
+		</tr>
+	</table>
+
+</body>
+</html>
